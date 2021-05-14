@@ -1,0 +1,36 @@
+diff a/src/content/LandingPage/Sample.js b/src/content/LandingPage/Sample.js	(rejected hunks)
+@@ -8 +8 @@
+-  
++
+@@ -12 +12 @@
+-  
++
+@@ -58,6 +58,4 @@ export default function Sample() {
+-          <label htmlFor="file" style={{fontSize:  "large"}}>Select from directory:  </label>
+-          {' '}
+-          <input
+-            onChange={onFileChange}
+-            type="file"
+-          />
++          <label htmlFor="file" style={{ fontSize: 'large' }}>
++            Select from directory:{' '}
++          </label>{' '}
++          <input onChange={onFileChange} type="file" />
+@@ -69,13 +67,4 @@ export default function Sample() {
+-            options={options}
+-          >
+-            {
+-              Array.from(
+-                new Array(numPages),
+-                (el, index) => (
+-                  <Page
+-                    key={`page_${index + 1}`}
+-                    pageNumber={index + 1}
+-                  />
+-                ),
+-              )
+-            }
++            options={options}>
++            {Array.from(new Array(numPages), (el, index) => (
++              <Page key={`page_${index + 1}`} pageNumber={index + 1} />
++            ))}
