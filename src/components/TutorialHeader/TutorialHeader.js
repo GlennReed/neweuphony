@@ -53,6 +53,16 @@ const TutorialHeader = () => (
             Create Account
           </HeaderMenuItem>
         </HeaderNavigation>
+        <HeaderNavigation aria-label="Carbon Tutorial">
+          <HeaderMenuItem element={Link} to="/community" style={{ color: 'green' }}>
+            Communities
+          </HeaderMenuItem>
+        </HeaderNavigation>
+        <HeaderNavigation aria-label="Carbon Tutorial">
+          <HeaderMenuItem element={Link} to="/logs" style={{ color: 'green' }}>
+            Logs
+          </HeaderMenuItem>
+        </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"
           expanded={isSideNavExpanded}
