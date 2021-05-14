@@ -1,0 +1,16 @@
+diff a/src/components/TutorialHeader/TutorialHeader.js b/src/components/TutorialHeader/TutorialHeader.js	(rejected hunks)
+@@ -33,2 +33,6 @@ const TutorialHeader = () => (
+-        <HeaderName element={Link} to="/" prefix="" style={{color: "red", fontSize: "16px"}}>
+-        {/*element={Link} to="/" prefix="IBM"*/}
++        <HeaderName
++          element={Link}
++          to="/"
++          prefix=""
++          style={{ color: 'red', fontSize: '16px' }}>
++          {/*element={Link} to="/" prefix="IBM"*/}
+@@ -43 +47 @@ const TutorialHeader = () => (
+-          <HeaderMenuItem element={Link} to="" style={{color: "yellow"}}>
++          <HeaderMenuItem element={Link} to="" style={{ color: 'yellow' }}>
+@@ -48 +52 @@ const TutorialHeader = () => (
+-          <HeaderMenuItem element={Link} to="" style={{color: "tan"}}>
++          <HeaderMenuItem element={Link} to="" style={{ color: 'tan' }}>
